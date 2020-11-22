@@ -61,12 +61,14 @@ a= document.getElementById("body").style.backgroundColor;
 if(a=='black'){
   document.getElementById("body").style.backgroundColor="#fff";
   document.getElementById("body").style.color="#000";
-  document.getElementById("headerimage").src="./img/header.png"
+  document.getElementById("headerimage").src="./img/header.png";
+  document.getElementsByClassName("home__social").style.color="#0E2431";
 }
 else{
   document.getElementById("body").style.backgroundColor="black";
   document.getElementById("body").style.color="#fff";
-  document.getElementById("headerimage").src="./img/header1.png"
+  document.getElementById("headerimage").src="./img/header1.png";
+  document.getElementsByClassName("home__social").style.color="#fff";
 }
 
 }

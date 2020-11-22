@@ -23,10 +23,10 @@
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list">
                         <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
-                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
-                        <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
-                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                        <li class="nav__item"><a href="index.html" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="index.html" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="index.html" class="nav__link">Work</a></li>
+                        <li class="nav__item"><a href="index.html" class="nav__link">Contact</a></li>
                         <li class="nav__item"><a href="#" class="nav__link">
                           <div class="custom-control custom-switch" >
                             <input type="checkbox" name="ckss" class="custom-control-input" id="customSwitch1" onclick="dark()">
@@ -43,6 +43,25 @@
         </header>
 
 <div class="container"><br>
+  <div class="alert alert-primary alert-dismissible fade show" role="alert">
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  <div class="toast-header">
+    <img src="./img/notification.jpg" alt="" class="rounded mr-2" id="notification__img">
+    <strong class="mr-auto">Aman Singh</strong>
+    <small>22/11/20  4:35 PM</small>
+  </div>
+    <strong style="color:black">Text to speech using python.</strong>
+    <p>First of all install one package.<br>1.pip install pyttsx3</p>
+<pre>
+import pyttsx3
+f=pyttsx3.init()
+f.say("hii My name i amsn singh")
+f.runAndWait()
+</pre>
+ </div>
+
   <div class="alert alert-primary alert-dismissible fade show" role="alert">
     <button type="button" class="close" data-dismiss="alert" aria-label="Close">
       <span aria-hidden="true">&times;</span>
